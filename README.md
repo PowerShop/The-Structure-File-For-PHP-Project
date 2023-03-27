@@ -43,7 +43,7 @@ To install this repository, simply clone the project to your local machine and i
 ```
 ## Index File :file:
 In Index file it include the dependencies from above lists
-```
+```php
 <?php
     // Set the timezone :watch:
     date_default_timezone_set("Asia/Bangkok");
