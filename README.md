@@ -40,7 +40,7 @@ To install this repository, simply clone the project to your local machine and i
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"></script>
 </body>
-
+```
 Usage :rocket:
 Once you have installed the project and included the necessary dependencies in your HTML file, you can use the website core as a starting point for your own website. The header, content, and footer sections can be customized to fit your needs, and the included system file can be modified to handle any backend functionality.
 
