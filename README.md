@@ -71,15 +71,15 @@ In Index file it include the dependencies from above lists
 	}
 ?>
 ```
-This code is written in PHP and performs the following actions:
+### This code is written in PHP and performs the following actions:
 
-Sets the timezone to Asia/Bangkok. :watch:
-Sets the error reporting to off. :bug:
-Includes the system file located in the _sys directory. :file_folder:
-Redirects to the home page if no GET parameters are present. :arrows_counterclockwise:
-Includes the appropriate page file located in the _page directory based on the GET parameter passed in the URL.
-If the requested page file does not exist, redirects to the home page.
-The code also uses the rdr() function which is presumably defined in the included _sys/_api.php file to perform the redirection. Emojis are added to make the code more visually appealing and easier to understand.
+- Sets the timezone to Asia/Bangkok. :watch:
+- Sets the error reporting to off. :bug:
+- Includes the system file located in the _sys directory. :file_folder:
+- Redirects to the home page if no GET parameters are present. :arrows_counterclockwise:
+- Includes the appropriate page file located in the _page directory based on the GET parameter passed in the URL.
+- If the requested page file does not exist, redirects to the home page.
+- The code also uses the rdr() function which is presumably defined in the included _sys/_api.php file to perform the redirection. Emojis are added to make the code more visually appealing and easier to understand... maybe :)
 
 ## Usage :rocket:
 Once you have installed the project and included the necessary dependencies in your HTML file, you can use the website core as a starting point for your own website. The header, content, and footer sections can be customized to fit your needs, and the included system file can be modified to handle any backend functionality.
