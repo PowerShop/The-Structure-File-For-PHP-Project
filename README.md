@@ -41,6 +41,46 @@ To install this repository, simply clone the project to your local machine and i
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"></script>
 </body>
 ```
+## Index File :file:
+In Index file it include the dependencies from above lists
+```
+<?php
+    // Set the timezone :watch:
+    date_default_timezone_set("Asia/Bangkok");
+
+    // Set the error reporting 1 = on, 0 = off :bug:
+	@ini_set('display_errors', '0');
+
+    // Include the system file :file_folder:
+    require dirname(__FILE__) . '/_sys/_api.php';
+
+    // Redirect :arrows_counterclockwise:
+    if ($_GET) {
+        // Do nothing :man_shrugging:
+	} else {
+		rdr('?page=home', 500);
+	}
+
+	if (isset($_GET['page'])) {
+		$page = '_page/' . $_GET['page'] . '.php';
+		if (file_exists($page)) {
+			include $page;
+		} else {
+			rdr('?page=home', 500);
+		}
+	}
+?>
+```
+This code is written in PHP and performs the following actions:
+
+Sets the timezone to Asia/Bangkok. :watch:
+Sets the error reporting to off. :bug:
+Includes the system file located in the _sys directory. :file_folder:
+Redirects to the home page if no GET parameters are present. :arrows_counterclockwise:
+Includes the appropriate page file located in the _page directory based on the GET parameter passed in the URL.
+If the requested page file does not exist, redirects to the home page.
+The code also uses the rdr() function which is presumably defined in the included _sys/_api.php file to perform the redirection. Emojis are added to make the code more visually appealing and easier to understand.
+
 ## Usage :rocket:
 Once you have installed the project and included the necessary dependencies in your HTML file, you can use the website core as a starting point for your own website. The header, content, and footer sections can be customized to fit your needs, and the included system file can be modified to handle any backend functionality.
 
