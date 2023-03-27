@@ -41,11 +41,11 @@ To install this repository, simply clone the project to your local machine and i
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"></script>
 </body>
 ```
-Usage :rocket:
+## Usage :rocket:
 Once you have installed the project and included the necessary dependencies in your HTML file, you can use the website core as a starting point for your own website. The header, content, and footer sections can be customized to fit your needs, and the included system file can be modified to handle any backend functionality.
 
-Contributing :thumbsup:
+## Contributing :thumbsup:
 We welcome contributions to our project! If you find any bugs or issues, please open an issue in the repository. If you would like to contribute code, please fork the project and submit a pull request with your changes.
 
-License :page_facing_up:
+## License :page_facing_up:
 This project is licensed under the MIT License. :memo:
